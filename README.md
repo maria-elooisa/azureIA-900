@@ -1,52 +1,50 @@
-# Explore Automated Machine Learning in Azure Machine Learning
+# Azure Labs Repository 🌐☁️📘
 
-Este repositório documenta minha experiência no laboratório "Explore Automated Machine Learning in Azure Machine Learning" da Microsoft, como parte do meu preparo para a certificação Azure AI-900. 💻📊🤖
+Bem-vindo(a) ao repositório dos meus laboratórios práticos no Microsoft Azure! Este repositório é dedicado à documentação e aos recursos utilizados nos laboratórios realizados como parte da minha jornada de aprendizado e preparação para a certificação Azure AI-900. 🚀🎓
 
-## Sobre o Laboratório
-O laboratório tem como objetivo apresentar os recursos de Machine Learning automatizado (AutoML) no Azure Machine Learning. Durante a experiência, aprendi a:
+## Objetivo do Repositório
+Este repositório tem como finalidade:
 
-- Configurar um workspace no Azure Machine Learning.
-- Criar experimentos de AutoML para classificação, regressão ou previsão de séries temporais.
-- Analisar os modelos gerados e escolher o mais adequado para implantação.
-- Implantar o modelo como um serviço de inferência no Azure.
+- Consolidar os laboratórios explorados na plataforma Azure.
+- Facilitar o acesso às documentações e códigos gerados.
+- Compartilhar conhecimento sobre os serviços e recursos do Azure.
+- Servir como um guia prático para quem deseja replicar os laboratórios.
 
-## Etapas Realizadas
+## Conteúdos Incluídos 📂
 
-1. **Configuração do Ambiente** 🌐
-   - Criei um recurso de Machine Learning no portal Azure.
-   - Configurei um workspace para hospedar os experimentos.
+Este repositório é organizado em subdiretórios, onde cada um representa um laboratório específico. Exemplos de conteúdos:
 
-2. **Carregamento dos Dados** 📊
-   - Usei dados fornecidos pelo laboratório para treinar e avaliar os modelos.
-   - Realizei o upload dos dados para o workspace utilizando o Azure Storage.
+- **Machine Learning Automatizado**: Explorando AutoML no Azure Machine Learning.
+- **Modelos de IA**: Treinamento e implantação de modelos baseados em dados reais.
+- **Integração com APIs**: Configuração de endpoints para inferência.
 
-3. **Execução de AutoML** 🤖
-   - Configurei um experimento AutoML para prever resultados com base nos dados.
-   - Escolhi classificação como técnica de aprendizado de máquina e executei o experimento.
+Cada diretório contém arquivos como:
 
-4. **Análise de Resultados** 📈
-   - Revisei as métricas de performance geradas pelos modelos.
-   - Selecionei o melhor modelo com base em acurácia e outras métricas relevantes.
+- Documentação detalhada (README.md).
+- Arquivos de dados.
 
-5. **Implantação do Modelo** 🚀
-   - Implantei o modelo como um endpoint REST para realização de inferências.
-   - Testei a API para verificar a precisão das previsões.
+## Certificação Azure AI-900 🏅
 
-## Arquivos Disponíveis
-- `README.md`: Documentação do laboratório e resultados alcançados.
-- `bike-data.zip`: Arquivo JSON com informações dos dados.
+Este repositório é parte essencial da minha preparação para a certificação Azure AI-900, que valida conhecimentos fundamentais em Inteligência Artificial e aprendizado de máquina no Azure. A cada laboratório concluído, avanço no entendimento dos recursos e serviços oferecidos pela plataforma Azure.
 
-## Como Reproduzir Este Projeto
-1. Acesse o portal Azure e crie um recurso de Machine Learning.
-2. Configure um workspace para hospedar os experimentos.
-3. Use os dados disponíveis no repositório para configurar e executar um experimento AutoML.
-4. Implemente o modelo gerado como um endpoint REST.
+## Como Usar Este Repositório 🔧
 
-## Recursos Adicionais
-- [Documentação Oficial do Azure Machine Learning](https://learn.microsoft.com/azure/machine-learning/)
-- [Curso Preparatório para Azure AI-900](https://learn.microsoft.com/certifications/azure-ai-fundamentals/)
+1. Navegue pelos diretórios para encontrar o laboratório desejado.
+2. Leia o README.md de cada diretório para entender os passos e as ferramentas utilizadas.
+3. Replique os laboratórios em sua conta Azure, utilizando os notebooks ou scripts fornecidos.
+4. Use os arquivos JSON para configurar endpoints e outros recursos.
+
+## Recursos Adicionais 📖
+
+- [Documentação do Azure Machine Learning](https://learn.microsoft.com/azure/machine-learning/)
+- [Portal de Certificações da Microsoft](https://learn.microsoft.com/certifications/)
+- [Microsoft Learn: Azure AI Fundamentals](https://learn.microsoft.com/training/paths/azure-ai-fundamentals/)
+
+## Contribuições 🤝
+
+Este é um repositório pessoal, mas fico feliz em receber feedbacks ou sugestões para melhorar os laboratórios e documentações. Caso tenha ideias ou encontre algo a corrigir, entre em contato!
 
 ---
 
-Sinta-se à vontade para explorar os arquivos e replicar o laboratório para o seu aprendizado! 😊
+Agradeço por visitar meu repositório e espero que este material seja úteis para seu aprendizado também. Vamos juntos explorar o universo do Azure! 😊
 
