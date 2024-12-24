@@ -34,7 +34,7 @@ O laboratório tem como objetivo apresentar os recursos de Machine Learning auto
 
 ## Arquivos Disponíveis
 - `README.md`: Documentação do laboratório e resultados alcançados.
-- `bike-data`: Arquivo JSON com informações dos dados.
+- `bike-data.zip`: Arquivo JSON com informações dos dados.
 
 ## Como Reproduzir Este Projeto
 1. Acesse o portal Azure e crie um recurso de Machine Learning.
