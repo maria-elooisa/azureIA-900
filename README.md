@@ -1,36 +1,52 @@
-# Guia do Projeto de Previsão no Azure IA
+# Explore Automated Machine Learning in Azure Machine Learning
 
-Este documento descreve como foi desenvolvido um projeto de previsão utilizando os recursos do Azure IA, configurando os pontos de extremidade e documentando o processo. 🌟📊✨
+Este repositório documenta minha experiência no laboratório "Explore Automated Machine Learning in Azure Machine Learning" da Microsoft, como parte do meu preparo para a certificação Azure AI-900. 💻📊🤖
 
-## Repositório no GitHub
-Foi criado um repositório no GitHub chamado `azureIA-900`. O repositório contém o arquivo README.md com as instruções e o arquivo .json com os pontos de extremidade configurados. 📂🌐🚀
+## Sobre o Laboratório
+O laboratório tem como objetivo apresentar os recursos de Machine Learning automatizado (AutoML) no Azure Machine Learning. Durante a experiência, aprendi a:
 
-Link para o repositório: [azure-ia-previsao](https://github.com/seu-usuario/azure-ia-previsao)
+- Configurar um workspace no Azure Machine Learning.
+- Criar experimentos de AutoML para classificação, regressão ou previsão de séries temporais.
+- Analisar os modelos gerados e escolher o mais adequado para implantação.
+- Implantar o modelo como um serviço de inferência no Azure.
 
-## Modelo de Previsão no Azure IA
-O modelo foi desenvolvido seguindo os seguintes passos: 🔧🧠💻
+## Etapas Realizadas
 
-1. **Configuração do Workspace**: Um workspace foi criado no Azure, onde foram carregados os conjuntos de dados necessários.
-2. **Criação do Experimento**: Utilizando o recurso “Designer” do Azure Machine Learning, um experimento foi configurado com os dados apropriados.
-3. **Treinamento do Modelo**: O modelo foi treinado e ajustado com base nos hiperparâmetros, garantindo uma performance satisfatória.
-4. **Configuração de Pontos de Extremidade**:
-   - O modelo foi implantado com sucesso.
-   - Pontos de extremidade REST foram gerados e configurados. Os detalhes estão no arquivo `endpoints.json` no repositório.
+1. **Configuração do Ambiente** 🌐
+   - Criei um recurso de Machine Learning no portal Azure.
+   - Configurei um workspace para hospedar os experimentos.
 
-## Documentação no README.md
-O processo foi documentado detalhadamente no README.md do repositório para permitir que outros possam replicar o projeto. 📝💡📘
+2. **Carregamento dos Dados** 📊
+   - Usei dados fornecidos pelo laboratório para treinar e avaliar os modelos.
+   - Realizei o upload dos dados para o workspace utilizando o Azure Storage.
 
-- **Ferramentas utilizadas**: Azure Machine Learning, GitHub.
-- **Configurações descritas**: Desde o carregamento de dados até a criação e implantação do modelo.
+3. **Execução de AutoML** 🤖
+   - Configurei um experimento AutoML para prever resultados com base nos dados.
+   - Escolhi classificação como técnica de aprendizado de máquina e executei o experimento.
 
-## Arquivos no Repositório
-- `README.md`: Documentação do projeto. 🗂️📄✅
-- `endpoints.json`: Arquivo contendo as informações dos pontos de extremidade configurados.
+4. **Análise de Resultados** 📈
+   - Revisei as métricas de performance geradas pelos modelos.
+   - Selecionei o melhor modelo com base em acurácia e outras métricas relevantes.
 
-## Entrega do Projeto
-O link para o repositório foi compartilhado através do portal Azure no botão “Entregar projeto”. 📬🌍📤
+5. **Implantação do Modelo** 🚀
+   - Implantei o modelo como um endpoint REST para realização de inferências.
+   - Testei a API para verificar a precisão das previsões.
 
-## Observações adicionais
-- Os endpoints foram testados e estão funcionando corretamente. ⚙️✅🔗
-- Todas as etapas do processo foram validadas e documentadas no repositório. 📋🔍👍
+## Arquivos Disponíveis
+- `README.md`: Documentação do laboratório e resultados alcançados.
+- `bike-data`: Arquivo JSON com informações dos dados.
+
+## Como Reproduzir Este Projeto
+1. Acesse o portal Azure e crie um recurso de Machine Learning.
+2. Configure um workspace para hospedar os experimentos.
+3. Use os dados disponíveis no repositório para configurar e executar um experimento AutoML.
+4. Implemente o modelo gerado como um endpoint REST.
+
+## Recursos Adicionais
+- [Documentação Oficial do Azure Machine Learning](https://learn.microsoft.com/azure/machine-learning/)
+- [Curso Preparatório para Azure AI-900](https://learn.microsoft.com/certifications/azure-ai-fundamentals/)
+
+---
+
+Sinta-se à vontade para explorar os arquivos e replicar o laboratório para o seu aprendizado! 😊
 
